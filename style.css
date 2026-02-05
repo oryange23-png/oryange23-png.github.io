@@ -1,1 +1,28 @@
-css for little prince
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+}
+
+img {
+    width: 100%;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.highlight{
+  background-color: orange;  
+}
+
+.quote {
+    font-color: red;
+    font-weight: bold;
+}
+
