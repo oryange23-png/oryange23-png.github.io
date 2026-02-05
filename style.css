@@ -13,6 +13,11 @@ img {
     width: 100%;
 }
 
+p {
+    display: inline;
+    margin: 0;
+}
+
 .underline{
   text-decoration: underline;
 }
