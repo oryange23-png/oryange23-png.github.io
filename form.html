@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 4 Form</title>
+    <script src="validation.js"></script>
+    <style>
+        #errors {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>User Registration Form</h2>
+
+<form id="myForm">
+
+Username:
+<input type="text" id="username"><br><br>
+
+Email:
+<input type="text" id="email"><br><br>
+
+Phone Number:
+<input type="text" id="phone" placeholder="(123)-456-7890"><br><br>
+
+Password:
+<input type="password" id="password"><br><br>
+
+Confirm Password:
+<input type="password" id="confirm"><br><br>
+
+Gender:
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+<br><br>
+
+Age Group:
+<select id="age">
+<option value=""></option>
+<option value="under21">< 21 years old</option>
+<option value="21-25">21 – 25 years old</option>
+<option value="26-35">26 – 35 years old</option>
+<option value="36-50">36 – 50 years old</option>
+<option value="over50">> 50 years old</option>
+</select>
+
+<br><br>
+
+Music Genre:<br>
+<input type="checkbox"> Pop
+<input type="checkbox"> Hiphop
+<input type="checkbox"> Jazz
+<input type="checkbox"> Rock
+<input type="checkbox"> Classical Music
+<input type="checkbox"> Country
+
+<br><br>
+
+<button type="button" onclick="validateForm()">Submit</button>
+<input type="reset" onclick="clearErrors()" value="Clear">
+
+</form>
+
+<div id="errors"></div>
+
+</body>
+</html>
